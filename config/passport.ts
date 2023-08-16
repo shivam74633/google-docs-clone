@@ -8,8 +8,8 @@ export default (passport: any) => {
     new GoogleStrategy(
       {
         clientID:
-          "60511277946-kgmiqeu9rvbg4ta0p1onk24d8mc74gt7.apps.googleusercontent.com",
-        clientSecret: "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",
+          "",
+        clientSecret: "",
         callbackURL: "/api/auth/google/callback",
       },
       function (
